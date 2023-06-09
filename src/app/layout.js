@@ -1,5 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+// import 'react-date-range/dist/styles.css'; 
+// import 'react-date-range/dist/theme/default.css';
 
 const inter = Inter({ subsets: ['latin'] })
 

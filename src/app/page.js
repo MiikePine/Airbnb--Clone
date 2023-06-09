@@ -5,6 +5,7 @@ import MediumCards from "../../components/MediumCard";
 import LargeCard from "../../components/LargeCard";
 import Footer from "../../components/Footer";
 
+
 export default async function Home() {
   const exploreData = await fetch("https://www.jsonkeeper.com/b/4G1G").
   then((res) => res.json())
@@ -55,7 +56,9 @@ export default async function Home() {
           <LargeCard img="https://a0.muscache.com/im/pictures/2da67c1c-0c61-4629-8798-1d4de1ac9291.jpg?im_w=1440" 
           title="The Greatest Outdoor" 
           description="Wishlist created by Airbnb"
-          buttonText="Get Inspired" />
+          buttonText="Get Inspired"
+         
+          />
         </main>
     
 
