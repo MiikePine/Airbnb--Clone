@@ -94,11 +94,13 @@ const search = () => {
                 <div className="flex items-center justify-end space-x-4 text-gray-500 ">
                     <p className="hidden md:inline cursor-pointer">Became a host</p>
                     <GlobeAltIcon  className="h-6 cursor-pointer"/>
-                  <div className="flex items-center space-x-2 border-2 rounded-full p-2">
+                  <div className="flex items-center space-x-2 border-2 rounded-full p-2 cursor-pointer shadow-lg active:scale-95 active:bg-gray-100
+        transition transform duration-100 ease-out">
                     <MenuIcon className="h-6" />
                     <UserCircleIcon  className="h-6"/>
                   </div>
                 </div>
+
                 
 
                 {searchInput && (
