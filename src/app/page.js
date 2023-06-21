@@ -6,6 +6,7 @@ import LargeCard from "../../components/LargeCard";
 import Footer from "../../components/Footer";
 
 
+
 export default async function Home() {
   const exploreData = await fetch("https://www.jsonkeeper.com/b/4G1G").
   then((res) => res.json())
@@ -35,6 +36,7 @@ export default async function Home() {
                     <SmallCard 
                               key={img}
                               img={img} 
+                              alt={"title"}
                               distance={distance} 
                               location={location} 
                               />
@@ -48,7 +50,7 @@ export default async function Home() {
 
                   <div className="flex space-x-3 overflow-scroll scrollbar-hide p-3 -ml-3">
                         {cardsData?.map(({img, title}) => (
-                          <MediumCards key={img} img={img} title={title}/>
+                          <MediumCards key={img} img={img} alt={title} title={title}/>
                         ))}
                     </div>
           </section>

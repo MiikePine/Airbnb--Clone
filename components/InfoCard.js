@@ -8,7 +8,7 @@ function Infocard({img, location, title, description, star, price, total}) {
             
             <div className="relative h-24 w-40 md:h-52 md:w-80 
             flex-shrink-0 ">
-                <Image src={img} fill="fill" className="rounded-lg"/>
+                <Image src={img} alt="title" fill="fill"  className="rounded-lg"/>
             </div>
 
 

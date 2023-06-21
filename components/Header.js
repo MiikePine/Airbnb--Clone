@@ -66,7 +66,7 @@ const search = () => {
 
                 {/* left */}
                 <div onClick={() => router.push("/")} className="relative flex w-32 items-center cursor-pointer my-auto ">
-                <Image src="https://links.papareact.com/qd3" width={100} height={100} alt="" />
+                <Image src="https://links.papareact.com/qd3" width={100}  height={100} alt="img" />
                 </div>
 
 
