@@ -44,7 +44,7 @@ export function SearchPage({ data }) {
                 <Infocard
                   key={img}
                   img={img}
-                  alt={"img"}
+                  alt="img"
                   location={location}
                   title={title}
                   description={description}

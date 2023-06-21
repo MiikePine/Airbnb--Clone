@@ -36,7 +36,7 @@ export default async function Home() {
                     <SmallCard 
                               key={img}
                               img={img} 
-                              alt={"title"}
+                              alt="title"
                               distance={distance} 
                               location={location} 
                               />

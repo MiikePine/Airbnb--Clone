@@ -38,6 +38,9 @@ function Footer () {
                 <p className="cursor-pointer">Airbnb Luxe</p>
             </div>
 
+            
+           
+
            
 
         </div>
